@@ -6,7 +6,34 @@
         xmlns:local="clr-namespace:SlidingTilePuzzle"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+    <Grid Margin="0,2,3.4,18.8" Height="300">
+        <Button x:Name="button00" Content="00" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button00_Click"/>
+        <Button x:Name="button10" Content="10" HorizontalAlignment="Left" Margin="65,10,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button10_Click"/>
+        <Button x:Name="button20" Content="20" HorizontalAlignment="Left" Margin="120,10,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button20_Click"/>
+        <Button x:Name="button30" Content="30" HorizontalAlignment="Left" Margin="175,10,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button30_Click"/>
+        <Button x:Name="button40" Content="40" HorizontalAlignment="Left" Margin="230,10,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button40_Click"/>
+        <Button x:Name="button01" Content="01" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button01_Click"/>
+        <Button x:Name="button11" Content="11" HorizontalAlignment="Left" Margin="65,65,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button11_Click"/>
+        <Button x:Name="button21" Content="21" HorizontalAlignment="Left" Margin="120,65,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button21_Click"/>
+        <Button x:Name="button31" Content="31" HorizontalAlignment="Left" Margin="175,65,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button31_Click"/>
+        <Button x:Name="button41" Content="41" HorizontalAlignment="Left" Margin="230,65,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button41_Click"/>
+        <Button x:Name="button02" Content="02" HorizontalAlignment="Left" Margin="10,120,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button02_Click"/>
+        <Button x:Name="button12" Content="12" HorizontalAlignment="Left" Margin="65,120,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button12_Click"/>
+        <Button x:Name="button22" Content="22" HorizontalAlignment="Left" Margin="120,120,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button22_Click"/>
+        <Button x:Name="button32" Content="32" HorizontalAlignment="Left" Margin="175,120,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button32_Click"/>
+        <Button x:Name="button42" Content="42" HorizontalAlignment="Left" Margin="230,120,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button42_Click"/>
+        <Button x:Name="button03" Content="03" HorizontalAlignment="Left" Margin="10,175,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button03_Click"/>
+        <Button x:Name="button13" Content="13" HorizontalAlignment="Left" Margin="65,175,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button13_Click"/>
+        <Button x:Name="button23" Content="23" HorizontalAlignment="Left" Margin="120,175,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button23_Click"/>
+        <Button x:Name="button33" Content="33" HorizontalAlignment="Left" Margin="175,175,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button33_Click"/>
+        <Button x:Name="button43" Content="43" HorizontalAlignment="Left" Margin="230,175,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button43_Click"/>
+        <Button x:Name="button04" Content="04" HorizontalAlignment="Left" Margin="10,230,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button04_Click"/>
+        <Button x:Name="button14" Content="14" HorizontalAlignment="Left" Margin="65,230,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button14_Click"/>
+        <Button x:Name="button24" Content="24" HorizontalAlignment="Left" Margin="120,230,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button24_Click"/>
+        <Button x:Name="button34" Content="34" HorizontalAlignment="Left" Margin="175,230,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button34_Click"/>
+        <Button x:Name="button44" Content="44" HorizontalAlignment="Left" Margin="230,230,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="button44_Click"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="220" Margin="285,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="220"/>
+        <Button x:Name="buttonReset" Content="Button" HorizontalAlignment="Left" Margin="430,235,0,0" VerticalAlignment="Top" Width="75" Click="buttonReset_Click"/>
+
     </Grid>
 </Window>
